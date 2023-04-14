@@ -22,8 +22,7 @@ EXPOSE 443
  
 # 把目录下的内容都复制到当前目录下
 COPY . .
-COPY appsettings.json /app/
- 
+
 # 运行镜像入口命令和可执行文件名称
 #ENTRYPOINT ["dotnet", "RailwayTest.dll"]
 ENTRYPOINT ["/bin/sh","railway-test.sh"]
