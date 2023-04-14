@@ -7,12 +7,13 @@ FROM mcr.microsoft.com/dotnet/runtime:6.0 AS base
 
  # 作者信息
 MAINTAINER LRB "1536624135@qq.com"
- 
+
 ####
 # FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 # FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS build
 # FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
- 
+
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
 # 设置工作目录
 WORKDIR /app
  
