@@ -7,4 +7,4 @@ export ASPNETCORE_URLS="http://+:$PORT"
 export ASPNETCORE_ENVIRONMENT="Production"
 export TZ="Asia/Shanghai"
 
-dotnet publish/OpenAIAPI.dll
+dotnet OpenAIAPI.dll
